@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 
-@interface FrameworkDemoViewController : UIViewController
+@interface FrameworkDemo4AridaViewController : UIViewController
 
 @end

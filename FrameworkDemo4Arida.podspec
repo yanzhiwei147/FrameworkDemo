@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FrameworkDemo4Arida"
-  s.version      = "1.0.0"
+  s.version      = "2.0.0"
   s.summary      = "FrameworkDemo4Arida project."
 
   s.description  = <<-DESC
@@ -73,11 +73,11 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/yanzhiwei147/FrameworkDemo4Arida.git", :tag => "#{s.version}" }
     
-  s.public_header_files = "FrameworkDemo.framework/Versions/A/**/*.h"
-  s.source_files = "FrameworkDemo.framework/Versions/A/**/*.h"
+  s.public_header_files = "#{s.name}.framework/Versions/A/**/*.h"
+  s.source_files = "#{s.name}.framework/Versions/A/**/*.h"
   s.preserve_paths = "*.framework"
-  s.vendored_frameworks = "FrameworkDemo.framework"
-  s.resources = "FrameworkDemoBundle.bundle"
+  s.vendored_frameworks = "#{s.name}.framework"
+  s.resources = "#{s.name}Bundle.bundle"
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
