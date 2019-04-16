@@ -15,15 +15,15 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "FrameworkDemo"
+  s.name         = "FrameworkDemo4Arida"
   s.version      = "1.0.0"
-  s.summary      = "FrameworkDemo project."
+  s.summary      = "FrameworkDemo4Arida project."
 
   s.description  = <<-DESC
-                   FrameworkDemo project description.
+                   FrameworkDemo4Arida project description.
                    DESC
 
-  s.homepage     = "https://github.com/yanzhiwei147/FrameworkDemo"
+  s.homepage     = "https://github.com/yanzhiwei147/FrameworkDemo4Arida"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -71,13 +71,13 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/yanzhiwei147/FrameworkDemo.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/yanzhiwei147/FrameworkDemo4Arida.git", :tag => "#{s.version}" }
     
-  s.public_header_files = "#{s.name}.framework/Versions/A/**/*.h"
-  s.source_files = "#{s.name}.framework/Versions/A/**/*.h"
+  s.public_header_files = "FrameworkDemo.framework/Versions/A/**/*.h"
+  s.source_files = "FrameworkDemo.framework/Versions/A/**/*.h"
   s.preserve_paths = "*.framework"
-  s.vendored_frameworks = "#{s.name}.framework"
-  s.resources = "#{s.name}Bundle.bundle"
+  s.vendored_frameworks = "FrameworkDemo.framework"
+  s.resources = "FrameworkDemoBundle.bundle"
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
